@@ -1,0 +1,51 @@
+h1{ color: rgb(56, 86, 202);
+    font-family: Optima, sans-serif;
+text-align: center;}
+
+h2 {
+    color: rgb(56, 86, 202);
+    font-family: Optima, sans-serif;
+}
+
+p {
+    font-family: Optima, sans-serif;
+}
+
+ul {
+    font-family: Optima, sans-serif;
+}
+
+#photo>img {height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:
+      2fr 2fr;
+    grid-template-areas:
+      "titreg titred"
+      "gauche droite";
+  }
+
+#left1 {
+    grid-area: titreg;
+    background-color: #dadef2;
+}
+#right1 {
+    grid-area: titred;
+    background-color: #cbd1f0;
+}
+
+#left2 {
+    grid-area: gauche;
+    background-color: #dadef2;
+}
+#right2 {
+    grid-area: droite;
+    background-color: #cbd1f0;
+}
+
+#coordonnees {text-align: center;}
